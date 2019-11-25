@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ServletProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>WebServlet</servlet-name>
+    <servlet-class>Study.Frist.WebServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WebServlet</servlet-name>
+    <url-pattern>/WebServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Servlet30Test</display-name>
+    <servlet-name>Servlet30Test</servlet-name>
+    <servlet-class>Study.Frist.Servlet30Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet30Test</servlet-name>
+    <url-pattern>/Servlet30Test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetUserServlet</display-name>
+    <servlet-name>GetUserServlet</servlet-name>
+    <servlet-class>Study.Frist.GetUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUserServlet</servlet-name>
+    <url-pattern>/GetUserServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
